@@ -1,0 +1,140 @@
+
+
+.h1{
+  text-align: center;
+  color:   #282828 !important ; 
+  font-family: 'Times New Roman', Times, serif !important ;
+  padding-top: 1%;
+
+
+}
+.App{
+  min-height: max-content;
+  background-color: #f8cdd6;
+  background-image: url(./background.jpeg );
+  background-size:cover;
+  min-height: 100vh;
+  
+}
+
+.form{
+  text-align: justify;
+  background-color: #cdc1b9;
+ 
+  border-radius: 20px;
+  color: white;
+  width: 90%;
+  height: 200px;
+  padding: 1%;
+  margin: 1%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float:left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.mini{
+  border-radius: 5px;
+}
+
+.rapor{
+  text-align: justify;
+  
+  border-radius: 20px;
+  color: white;
+  width: 90%;
+  height: 353px;
+
+  margin: 1%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display:inline-block;
+
+}
+
+.small-forms{
+  border-radius: 2%;
+}
+
+.form-control{
+  font-size: 17px;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+}
+
+.form-rapor{
+  outline-style: solid;
+  outline-color: #3d3d3d;
+  border-radius: 20px;
+}
+
+
+@media (min-width: 992px) {
+  .rapor{
+ width: 65% !important ;
+
+  }
+  .form{
+    width: 25% !important;
+
+  }
+
+}
+
+a{
+  text-decoration: none !important;
+  color: white !important;
+}
+
+
+.button{
+  background-color:  #282828 !important;
+  color: white  !important ;
+  height: 3%;
+  width: 8%;
+  padding: 1%;
+  margin: 1%;
+
+}
+
+.form-input-group{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 900px) {
+  .button{
+ width: 45% !important ;
+  }
+
+  .form-rapor{
+    height: 338px !important;
+    outline-style: groove;
+  }
+
+  
+
+  .App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: max-content;
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+  
+}
+
+button:hover{
+  background-color: #abbbcb !important;
+  cursor: pointer;
+  border-color: #abbbcb;
+
+}
+
