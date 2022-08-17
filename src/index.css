@@ -83,7 +83,7 @@ a{
 
 
 .button{
-  background-color:  #282828 !important;
+  background-color:  #C6808C   !important;
   color: white  !important ;
   height: 3%;
   width: 10% !important ;
@@ -125,9 +125,9 @@ a{
 
 
 button:hover{
-  background-color: #abbbcb !important;
+  background-color: #282828 !important;
   cursor: pointer;
-  border-color: #abbbcb;
+  border-color: #282828 !important;
 
 }
 
