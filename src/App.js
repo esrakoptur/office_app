@@ -103,7 +103,7 @@ function App() {
 
       <div className="d-flex justify-content-center gap-3">
         <button className="btn button" value="submit" onClick={SaveHandling()}>
-          Kaydet <div>✔</div>
+          Kaydet <div><img  src="/tick.svg" /></div>
         </button>
         <button className="btn button">
           <a
@@ -113,7 +113,7 @@ function App() {
               .map((item) => item + ":" + "%20" + bodyText[item] + "%0D%0A")
               .join("")}`}
           >
-            Gönder <div>✉</div>
+            Gönder <div><img src="/mail.svg" /></div>
           </a>
         </button>
       </div>
