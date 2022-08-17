@@ -1,5 +1,8 @@
 
-
+*{
+  margin: 0;
+  padding: 0;
+}
 .h1{
   text-align: center;
   color:   #282828 !important ; 
@@ -20,12 +23,10 @@
 .form{
   text-align: justify;
   background-color: #cdc1b9;
- 
   border-radius: 20px;
   color: white;
   width: 90%;
-  height: 200px;
-  padding: 1%;
+  padding: 5%;
   margin: 1%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   float:left;
@@ -39,19 +40,6 @@
   border-radius: 5px;
 }
 
-.rapor{
-  text-align: justify;
-  
-  border-radius: 20px;
-  color: white;
-  width: 90%;
-  height: 353px;
-
-  margin: 1%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display:inline-block;
-
-}
 
 .small-forms{
   border-radius: 2%;
@@ -61,25 +49,29 @@
   font-size: 17px;
   border-radius: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: -webkit-fill-available;
-  width: -webkit-fill-available;
+ 
+  
 }
 
 .form-rapor{
   outline-style: solid;
   outline-color: #3d3d3d;
   border-radius: 20px;
+  width: 90% !important;
+  min-height: 300px;
 }
 
 
 @media (min-width: 992px) {
   .rapor{
  width: 65% !important ;
+ height: 165% !important ;
 
   }
-  .form{
-    width: 25% !important;
+ 
 
+  App{
+    min-height: 100vh;
   }
 
 }
@@ -94,9 +86,9 @@ a{
   background-color:  #282828 !important;
   color: white  !important ;
   height: 3%;
-  width: 8%;
+  width: 10% !important ;
   padding: 1%;
-  margin: 1%;
+
 
 }
 
@@ -105,14 +97,17 @@ a{
   flex-direction: column;
 }
 
-@media (max-width: 900px) {
+
   .button{
- width: 45% !important ;
+ width: 55% !important ;
+ height: auto;
+
   }
 
   .form-rapor{
-    height: 338px !important;
+
     outline-style: groove;
+    min-height: 300px !important;
   }
 
   
@@ -124,12 +119,10 @@ a{
     min-height: max-content;
     height: 100%;
     width: 100%;
+    min-height: 100vh;
+ 
   }
 
-
-
-  
-}
 
 button:hover{
   background-color: #abbbcb !important;
